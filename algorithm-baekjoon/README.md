@@ -1,0 +1,34 @@
+# 푼 문제
+***
+## Baekjoon
+### 2022
+* [2562 - 최댓값](https://www.acmicpc.net/problem/2562)
+* [15596 - 정수 N개의 합](https://www.acmicpc.net/problem/15596)
+* [4673 - 셀프넘버](https://www.acmicpc.net/problem/4673)
+* [3052 - 나머지](https://www.acmicpc.net/problem/3052)
+* [1065 - 한수](https://www.acmicpc.net/problem/1065)
+* [8958 - ox퀴즈](https://www.acmicpc.net/problem/8958)
+* [1546 - 평균](https://www.acmicpc.net/problem/1546)
+* [1920 - 수 찾기](https://www.acmicpc.net/problem/1920)
+* [2003 - 수들의 합 2](https://www.acmicpc.net/problem/2003)
+* [1712 - 손익분기점](https://www.acmicpc.net/problem/1712)
+* [2292 - 벌집](https://www.acmicpc.net/problem/2292)
+* [2750 - 수 정렬하기](https://www.acmicpc.net/problem/2750)
+* [2798 - 블랙잭](https://www.acmicpc.net/problem/2798)
+* [1978 - 소수 찾기](https://www.acmicpc.net/problem/1978)
+* [11047 - 동전 0](https://www.acmicpc.net/problem/11047)
+* [1463 - 1로 만들기](https://www.acmicpc.net/problem/1463)
+* [2587 - 대표값2](https://www.acmicpc.net/problem/2587)
+* [25305 - 커트라인](https://www.acmicpc.net/problem/25305)
+* [10872 - 팩토리얼](https://www.acmicpc.net/problem/10872)
+* [11659 - 구간 합 구하기 4](https://www.acmicpc.net/problem/11659)
+* [10828 - 스택](https://www.acmicpc.net/problem/10828)
+* [10815 - 숫자카드](https://www.acmicpc.net/problem/10815)
+* [10816 - 숫자카드2](https://www.acmicpc.net/problem/10816)
+* [10844 - 쉬운 계단 수](https://www.acmicpc.net/problem/10844)
+* [1929 - 소수 구하기](https://www.acmicpc.net/problem/1929)
+
+### 2023
+* [2579 - 계단 오르기](https://www.acmicpc.net/problem/2579)
+* [2563 - 색종이](https://www.acmicpc.net/problem/2563)
+* [2751 - 수 정렬하기 2](https://www.acmicpc.net/problem/2751)
