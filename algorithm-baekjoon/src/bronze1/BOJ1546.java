@@ -11,18 +11,18 @@ public class BOJ1546 {
         Scanner sc = new Scanner(System.in);
 
         double[] arr = new double[sc.nextInt()];
-        
-        double max_num = 0; 
-        double sum = 0;     
 
-        for(int i = 0; i < arr.length; i++){
+        double max_num = 0;
+        double sum = 0;
+
+        for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
 
-            if(arr[i] > max_num){
+            if (arr[i] > max_num) {
                 max_num = arr[i];
             }
         }
-        for(int i = 0; i < arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
             sum += (arr[i] / max_num) * 100;
         }
 
