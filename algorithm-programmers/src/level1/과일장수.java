@@ -18,20 +18,21 @@ class 과일장수 {
     }
 }
 
+/*
+다른사람 풀이
+import java.util.*;
 
-// 다른사람 풀이
-//import java.util.*;
-//
-//class 과일장수 {
-//    public int solution(int k, int m, int[] score) {
-//        int answer = 0;
-//
-//        Arrays.sort(score);
-//
-//        for(int i = score.length; i >= m; i -= m){
-//            answer += score[i - m] * m;
-//        }
-//
-//        return answer;
-//    }
-//}
+class 과일장수 {
+    public int solution(int k, int m, int[] score) {
+        int answer = 0;
+
+        Arrays.sort(score);
+
+        for(int i = score.length; i >= m; i -= m){
+            answer += score[i - m] * m;
+        }
+
+        return answer;
+    }
+}
+ */
