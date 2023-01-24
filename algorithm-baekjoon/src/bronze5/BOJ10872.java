@@ -15,8 +15,9 @@ public class BOJ10872 {
         int sum = factorial(n);
         System.out.println(sum);
     }
-    public static int factorial(int n){
-        if(n <= 1) return 1;
-        return n * factorial(n-1);
+
+    public static int factorial(int n) {
+        if (n <= 1) return 1;
+        return n * factorial(n - 1);
     }
 }
