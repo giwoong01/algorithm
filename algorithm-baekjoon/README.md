@@ -1,6 +1,5 @@
 # 푼 문제
 ***
-## Baekjoon
 ### 2022
 * [2562 - 최댓값](https://www.acmicpc.net/problem/2562)
 * [15596 - 정수 N개의 합](https://www.acmicpc.net/problem/15596)
