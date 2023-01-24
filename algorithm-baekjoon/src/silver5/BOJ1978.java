@@ -12,20 +12,20 @@ public class BOJ1978 {
         int n = s.nextInt();
         int count = 0;
 
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             boolean isPrime = true;
             int num = s.nextInt();
 
-            if(num == 1){
+            if (num == 1) {
                 continue;
             }
-            for(int j = 2; j <= Math.sqrt(num); j++){
-                if(num % j == 0){
+            for (int j = 2; j <= Math.sqrt(num); j++) {
+                if (num % j == 0) {
                     isPrime = false;
                     break;
                 }
             }
-            if(isPrime){
+            if (isPrime) {
                 count++;
             }
         }

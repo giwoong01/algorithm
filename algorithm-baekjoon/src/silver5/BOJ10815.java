@@ -42,12 +42,12 @@ public class BOJ10815 {
         int leftIndex = 0;
         int rightIndex = n - 1;
 
-        while(leftIndex <= rightIndex){
+        while (leftIndex <= rightIndex) {
             int midIndex = (leftIndex + rightIndex) / 2;
             int mid = card[midIndex];
 
-            if(num < mid) rightIndex = midIndex - 1;
-            else if(num > mid) leftIndex = midIndex + 1;
+            if (num < mid) rightIndex = midIndex - 1;
+            else if (num > mid) leftIndex = midIndex + 1;
             else return true;
         }
         return false;
