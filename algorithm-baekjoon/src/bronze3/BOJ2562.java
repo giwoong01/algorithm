@@ -13,11 +13,11 @@ public class BOJ2562 {
         int max = 0;
         int count = 0;
 
-        for(int i = 0; i < arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
             arr[i] = s.nextInt();
-            if(arr[i] > max){
+            if (arr[i] > max) {
                 max = arr[i];
-                count = i+1;
+                count = i + 1;
             }
         }
 
