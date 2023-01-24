@@ -12,14 +12,14 @@ public class BOJ2587 {
         int[] n = new int[5];
         int sum = 0;
 
-        for(int i = 0; i < 5; i++){
+        for (int i = 0; i < 5; i++) {
             n[i] = sc.nextInt();
             sum += n[i];
         }
 
         Arrays.sort(n);
 
-        System.out.println(sum/5);
+        System.out.println(sum / 5);
         System.out.println(n[2]);
 
         sc.close();

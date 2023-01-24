@@ -4,9 +4,9 @@ package bronze2;
 // 리턴값: a에 포함되어 있는 정수 n개의 합
 
 public class BOJ15596 {
-    long sum(int[] a){
+    long sum(int[] a) {
         long sum = 0;
-        for(int i = 0; i < a.length; i ++){
+        for (int i = 0; i < a.length; i++) {
             sum += a[i];
         }
         return sum;

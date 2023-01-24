@@ -15,15 +15,14 @@ public class BOJ2292 {
         int c = 1; // 칸 수.
         int r = 2; // 최소 범위.
 
-        if(n == 1){
+        if (n == 1) {
             System.out.println(1);
-        }
-        else{
-            while(r <= n){
+        } else {
+            while (r <= n) {
                 r = r + (6 * c);
                 c++;
             }
             System.out.println(c);
         }
-    }    
+    }
 }

@@ -14,11 +14,11 @@ public class BOJ25305 {
         int k = sc.nextInt();
         Integer x[] = new Integer[n];
 
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             x[i] = sc.nextInt();
         }
         sc.close();
         Arrays.sort(x, Collections.reverseOrder());
-        System.out.println(x[k-1]);
+        System.out.println(x[k - 1]);
     }
 }

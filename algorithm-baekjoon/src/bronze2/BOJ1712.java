@@ -16,13 +16,12 @@ public class BOJ1712 {
         int c = input.nextInt();
 
         int bep = 0;
-        if(b >= c){
+        if (b >= c) {
             bep = -1;
-        }
-        else{
-            bep = a / (c-b) + 1;
+        } else {
+            bep = a / (c - b) + 1;
         }
 
-        System.out.println(bep); 
+        System.out.println(bep);
     }
 }

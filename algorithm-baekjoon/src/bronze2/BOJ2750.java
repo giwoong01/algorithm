@@ -12,13 +12,13 @@ public class BOJ2750 {
         int num = s.nextInt();
         int[] arr = new int[num];
 
-        for(int i = 0; i < num; i++){
+        for (int i = 0; i < num; i++) {
             arr[i] = s.nextInt();
         }
 
-        for(int i = 0; i < num - 1; i++){
-            for(int j = i + 1; j < num; j++){
-                if(arr[i] > arr[j]){
+        for (int i = 0; i < num - 1; i++) {
+            for (int j = i + 1; j < num; j++) {
+                if (arr[i] > arr[j]) {
                     int temp = arr[j];
                     arr[j] = arr[i];
                     arr[i] = temp;
@@ -26,7 +26,7 @@ public class BOJ2750 {
             }
         }
 
-        for(int var : arr){
+        for (int var : arr) {
             System.out.println(var);
         }
 

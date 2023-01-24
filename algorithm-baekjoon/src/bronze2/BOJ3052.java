@@ -12,18 +12,18 @@ public class BOJ3052 {
         int[] arr = new int[10];
         int temp = 0;
         int count = 0;
-        
-        for(int i = 0; i < arr.length; i++){
+
+        for (int i = 0; i < arr.length; i++) {
             arr[i] = s.nextInt() % 42;
         }
-        for(int i = 0; i < arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
             temp = 0;
-            for(int k = i+1; k < arr.length; k++){
-                if(arr[i] == arr[k]){
+            for (int k = i + 1; k < arr.length; k++) {
+                if (arr[i] == arr[k]) {
                     temp++;
                 }
             }
-            if(temp == 0){
+            if (temp == 0) {
                 count++;
             }
         }
