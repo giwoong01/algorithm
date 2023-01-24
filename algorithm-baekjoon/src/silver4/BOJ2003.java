@@ -13,22 +13,20 @@ public class BOJ2003 {
         int m = sc.nextInt();
         int[] arr = new int[n];
 
-        for(int i=0; i<n; i++){
+        for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
         sc.close();
         int startPoint = 0, endPoint = 0, sum = 0, count = 0;
-        while(true){
-            if(sum >= m){
+        while (true) {
+            if (sum >= m) {
                 sum -= arr[startPoint++];
-            }
-            else if(endPoint == n){
+            } else if (endPoint == n) {
                 break;
-            }
-            else{
+            } else {
                 sum += arr[endPoint++];
             }
-            if(sum == m){
+            if (sum == m) {
                 count++;
             }
         }

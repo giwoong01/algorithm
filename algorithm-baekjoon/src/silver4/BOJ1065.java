@@ -13,21 +13,21 @@ public class BOJ1065 {
         System.out.println(ap(n));
     }
 
-    public static int ap(int x){
+    public static int ap(int x) {
         int count = 0;
-        for(int i = 1; i <= x; i++){
-            if(i < 100){ // 1~ 99 까지는 무조건 등차수열
+        for (int i = 1; i <= x; i++) {
+            if (i < 100) { // 1~ 99 까지는 무조건 등차수열
                 count++;
                 continue;
             }
             int a = i % 10;
-            int b = (i/10) % 10;
-            int c = (i/100) % 10;
-            if(a - b == b - c ){ // 셋째자리 - 둘째자리 == 둘째자리 - 첫째자리 같으면 공차 성립 = 등차수열
+            int b = (i / 10) % 10;
+            int c = (i / 100) % 10;
+            if (a - b == b - c) { // 셋째자리 - 둘째자리 == 둘째자리 - 첫째자리 같으면 공차 성립 = 등차수열
                 count++;
             }
         }
-        if(x == 1000){
+        if (x == 1000) {
             count--;
         }
 

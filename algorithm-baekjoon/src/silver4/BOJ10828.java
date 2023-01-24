@@ -24,10 +24,10 @@ public class BOJ10828 {
 
         stack = new int[n];
 
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             String str = sc.next();
 
-            switch (str){
+            switch (str) {
                 case "push":
                     push(sc.nextInt());
                     break;
@@ -47,37 +47,38 @@ public class BOJ10828 {
         System.out.println(sb);
     }
 
-    public static void push(int item){
+    public static void push(int item) {
         stack[size] = item;
         size++;
     }
-    public static int pop(){
-        if(size==0){
+
+    public static int pop() {
+        if (size == 0) {
             return -1;
-        }
-        else{
-            int res = stack[size-1];
-            stack[size-1] = 0;
+        } else {
+            int res = stack[size - 1];
+            stack[size - 1] = 0;
             size--;
             return res;
         }
     }
-    public static int size(){
+
+    public static int size() {
         return size;
     }
-    public static int empty(){
-        if(size == 0){
+
+    public static int empty() {
+        if (size == 0) {
             return 1;
-        }
-        else{
+        } else {
             return 0;
         }
     }
-    public static int top(){
-        if(size == 0){
+
+    public static int top() {
+        if (size == 0) {
             return -1;
-        }
-        else{
+        } else {
             return stack[size - 1];
         }
     }

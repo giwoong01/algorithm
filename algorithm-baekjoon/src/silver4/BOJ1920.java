@@ -13,7 +13,7 @@ public class BOJ1920 {
         int n = sc.nextInt();
         int[] arr = new int[n];
 
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
 
@@ -22,35 +22,33 @@ public class BOJ1920 {
         int m = sc.nextInt();
 
         StringBuilder sb = new StringBuilder();
-        for(int i = 0; i < m; i++){
-            if(binarySearch(arr, sc.nextInt()) >= 0){
+        for (int i = 0; i < m; i++) {
+            if (binarySearch(arr, sc.nextInt()) >= 0) {
                 sb.append(1).append('\n');
-            }
-            else{
+            } else {
                 sb.append(0).append('\n');
             }
         }
         System.out.println(sb);
     }
-    public static int binarySearch(int[] arr, int key){
+
+    public static int binarySearch(int[] arr, int key) {
         int lo = 0;                 // 탐색범위의 왼쪽 끝 인덱스
         int hi = arr.length - 1;    // 탐색범위의 오른쪽 끝 인덱스
 
-        while(lo <= hi){
+        while (lo <= hi) {
             int mid = (lo + hi) / 2; // 중간위치
 
-            if(key < arr[mid]){      // key 값이 중간위치보의 값보다 작을 경우
+            if (key < arr[mid]) {      // key 값이 중간위치보의 값보다 작을 경우
                 hi = mid - 1;
-            }
-            else if(key > arr[mid]){ // key 값이 중간위치의 값보다 클 경우
+            } else if (key > arr[mid]) { // key 값이 중간위치의 값보다 클 경우
                 lo = mid + 1;
-            }
-            else{                    // key 값이 중간위치의 값과 같을 경우
+            } else {                    // key 값이 중간위치의 값과 같을 경우
                 return mid;
             }
         }
 
         return -1;
-        
+
     }
 }

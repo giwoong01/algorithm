@@ -16,14 +16,14 @@ public class BOJ11047 {
         int[] coin = new int[n];
         int count = 0;
 
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             coin[i] = sc.nextInt();
         }
 
-        for(int i = n - 1; i >= 0; i--){ // 가장 큰 가치를 지닌 동전부터 탐색
-            if(coin[i] <= k){
+        for (int i = n - 1; i >= 0; i--) { // 가장 큰 가치를 지닌 동전부터 탐색
+            if (coin[i] <= k) {
                 count += (k / coin[i]);
-                k = k %coin[i];
+                k = k % coin[i];
             }
         }
         sc.close();
