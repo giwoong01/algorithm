@@ -13,14 +13,14 @@ public class BOJ11659 {
         int n = sc.nextInt();
         int m = sc.nextInt();
 
-        int[] arr = new int[n+1];
+        int[] arr = new int[n + 1];
         arr[0] = 0;
 
-        for(int i = 1; i <= n; i++){
-            arr[i] = arr[i-1] + sc.nextInt();
+        for (int i = 1; i <= n; i++) {
+            arr[i] = arr[i - 1] + sc.nextInt();
         }
 
-        for(int k = 0; k < m; k++){
+        for (int k = 0; k < m; k++) {
             int i = sc.nextInt();
             int j = sc.nextInt();
 

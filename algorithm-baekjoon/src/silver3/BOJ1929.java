@@ -21,7 +21,7 @@ public class BOJ1929 {
 
 
         prime = new boolean[n + 1];
-        get_prime();
+        getPrime();
 
         StringBuilder sb = new StringBuilder();
 
@@ -31,7 +31,7 @@ public class BOJ1929 {
         System.out.println(sb);
     }
 
-    public static void get_prime() {
+    public static void getPrime() {
         // true = 소수 아님, false = 소수
         prime[0] = prime[1] = true;
 
