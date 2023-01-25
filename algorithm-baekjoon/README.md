@@ -31,3 +31,4 @@
 * [2579 - 계단 오르기](https://www.acmicpc.net/problem/2579)
 * [2563 - 색종이](https://www.acmicpc.net/problem/2563)
 * [2751 - 수 정렬하기 2](https://www.acmicpc.net/problem/2751)
+* [10870 - 피보나치 수 5](https://www.acmicpc.net/problem/10870)
