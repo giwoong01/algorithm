@@ -19,7 +19,6 @@ class 과일장수 {
 }
 
 /*
-다른사람 풀이
 import java.util.*;
 
 class 과일장수 {
