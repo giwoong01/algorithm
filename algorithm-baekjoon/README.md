@@ -32,4 +32,4 @@
 * [2563 - 색종이](https://www.acmicpc.net/problem/2563)
 * [2751 - 수 정렬하기 2](https://www.acmicpc.net/problem/2751)
 * [10870 - 피보나치 수 5](https://www.acmicpc.net/problem/10870)
-* [1197 - 분수찾기](https://www.acmicpc.net/problem/1193)
+* [1193 - 분수찾기](https://www.acmicpc.net/problem/1193)
