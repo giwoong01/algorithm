@@ -5,7 +5,7 @@ package src.level1;
 
 import java.util.*;
 
-class Solution {
+class 명예의전당 {
     public int[] solution(int k, int[] score) {
         int[] answer = new int[score.length];
         List<Integer> sc = new ArrayList();
