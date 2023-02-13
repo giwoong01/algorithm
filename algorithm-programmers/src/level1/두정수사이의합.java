@@ -1,5 +1,8 @@
 package src.level1;
 
+// level-1
+// 두 정수 사이의 합
+
 public class 두정수사이의합 {
     public long solution(int a, int b) {
         long answer = 0;
