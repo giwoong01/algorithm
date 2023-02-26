@@ -33,3 +33,6 @@
 * [2751 - 수 정렬하기 2](https://www.acmicpc.net/problem/2751)
 * [10870 - 피보나치 수 5](https://www.acmicpc.net/problem/10870)
 * [1193 - 분수찾기](https://www.acmicpc.net/problem/1193)
+* [11382 - 꼬마 정민](https://www.acmicpc.net/problem/11382)
+* [10813 - 공 바꾸기](https://www.acmicpc.net/problem/10813)
+* [10811 - 바구니 뒤집기](https://www.acmicpc.net/problem/10811)
