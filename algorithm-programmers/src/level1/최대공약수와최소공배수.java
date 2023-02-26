@@ -1,5 +1,8 @@
 package src.level1;
 
+// level-1
+// 최대공약수와 최소공배수
+
 public class 최대공약수와최소공배수 {
     public int[] solution(int n, int m) {
         int[] answer = new int[2];
