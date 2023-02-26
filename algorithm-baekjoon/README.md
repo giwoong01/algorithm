@@ -36,3 +36,4 @@
 * [11382 - 꼬마 정민](https://www.acmicpc.net/problem/11382)
 * [10813 - 공 바꾸기](https://www.acmicpc.net/problem/10813)
 * [10811 - 바구니 뒤집기](https://www.acmicpc.net/problem/10811)
+* [2581 - 소수](https://www.acmicpc.net/problem/2581)
