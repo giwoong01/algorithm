@@ -37,3 +37,8 @@
 * [10813 - 공 바꾸기](https://www.acmicpc.net/problem/10813)
 * [10811 - 바구니 뒤집기](https://www.acmicpc.net/problem/10811)
 * [2581 - 소수](https://www.acmicpc.net/problem/2581)
+* [1008 - A / B](https://www.acmicpc.net/problem/1008)
+* [1330 - 두 수 비교하기](https://www.acmicpc.net/problem/1330)
+* [25304 - 영수증](https://www.acmicpc.net/problem/25304)
+* [25314 - 코딩은 체육과목 입니다](https://www.acmicpc.net/problem/25314)
+* [10810 - 공 넣기](https://www.acmicpc.net/problem/10810)
