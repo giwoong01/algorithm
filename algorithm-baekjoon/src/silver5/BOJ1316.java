@@ -22,7 +22,7 @@ public class BOJ1316 {
             boolean tmp = true;
 
             for (int j = 0; j < str.length(); j++) {
-                int index = str.charAt(j) - 'a'; // 'a' 를 빼주는 이유는 int 값으로는 97이기때문에 알파벳 그대로 넣어버리면 check[index]에 오류가 생긴다. ex) check[97] 이렇게되면 오류임..
+                int index = str.charAt(j) - 'a';
                 if (check[index]) {
                     if (str.charAt(j) != str.charAt(j - 1)) {
                         tmp = false;
