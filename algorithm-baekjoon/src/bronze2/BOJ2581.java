@@ -1,4 +1,4 @@
-package silver5;
+package bronze2;
 
 // 소수
 // 자연수 M과 N이 주어질 때 M이상 N이하의 자연수 중 소수인 것을 모두 골라 이들 소수의 합과 최솟값을 찾는 프로그램을 작성하시오.
@@ -38,7 +38,6 @@ public class BOJ2581 {
         }
         if (sumPrime == 0) { // 소수가 없을 경우
             System.out.println(-1);
-            return;
         } else {
             System.out.println(sumPrime + "\n" + minPrime);
         }
