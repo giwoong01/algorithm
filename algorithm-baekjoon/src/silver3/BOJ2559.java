@@ -19,15 +19,19 @@ public class BOJ2559 {
         int N = Integer.parseInt(st.nextToken());
         int K = Integer.parseInt(st.nextToken());
 
-        int[] arr = new  int[N + 1];
+        int[] arr = new  int[N];
         st = new StringTokenizer(br.readLine());
-        for (int i = 1; i <= N; i++) {
-            arr[i] = arr[i - 1] + Integer.parseInt(st.nextToken());
+        for (int i = 0; i < N; i++) {
+            arr[i] = Integer.parseInt(st.nextToken());
         }
 
-        int maxSum = -300;
-        for (int i = K; i <= N; i++) {
-            int sum = arr[i] - arr[i - K];
+        int maxSum = Integer.MIN_VALUE;
+        for (int i = 0; i <= N - K; i++) {
+            int sum = 0;
+
+            for (int j = i; j < i + K; j++) {
+                sum += arr[j];
+            }
 
             if (maxSum < sum) {
                 maxSum = sum;
