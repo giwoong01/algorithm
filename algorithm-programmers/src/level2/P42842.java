@@ -18,8 +18,6 @@ public class P42842 {
             int x = total / i;
             int y = i;
 
-            if (x < y) continue;
-
             if ((x - 2) * (y - 2) == yellow) {
                 answer[0] = x;
                 answer[1] = y;
