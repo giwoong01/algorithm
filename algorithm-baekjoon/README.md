@@ -82,6 +82,9 @@
 * [2908 - 상수](https://www.acmicpc.net/problem/2908)
 * [1546 - 평균](https://www.acmicpc.net/problem/1546)
 * [1259 - 팰린드롬수](https://www.acmicpc.net/problem/1259)
+* [2745 - 진법 변환](https://www.acmicpc.net/problem/2745)
+* [2745 - 진법 변환2](https://www.acmicpc.net/problem/11005)
+
 
 * [9020 - 골드바흐 추측]
 * [17103 - 골드바흐 파티션]
