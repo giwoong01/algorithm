@@ -1,24 +1,36 @@
 package src.level1;
 
-// level-1
-// 명예의 전당(1)
+/*
+level-1
+명예의 전당(1)
+
+k	score	                                        result
+3	[10, 100, 20, 150, 1, 100, 200]	                [10, 10, 10, 20, 20, 100, 100]
+4	[0, 300, 40, 300, 20, 70, 150, 50, 500, 1000]	[0, 0, 0, 0, 20, 40, 70, 70, 150, 300]
+ */
 
 import java.util.*;
 
 class P138477 {
-    public int[] solution(int k, int[] score) {
+    public static void main(String[] args) {
+        int k = 4;
+        int[] score = {0, 300, 40, 300, 20, 70, 150, 50, 500, 1000};
+
+        System.out.println(Arrays.toString(solution2(k, score)));
+    }
+
+    public static int[] solution2(int k, int[] score) {
         int[] answer = new int[score.length];
-        List<Integer> sc = new ArrayList();
-        for(int i = 0; i < score.length; i++) {
-            if(i < k - 1) {
-                sc.add(score[i]);
-                sc.sort(Collections.reverseOrder());
-                answer[i] = sc.get(sc.size() - 1);
-            }
-            else if(i >= k - 1) {
-                sc.add(score[i]);
-                sc.sort(Collections.reverseOrder());
-                answer[i] = sc.get(k - 1);
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < score.length; i++) {
+            if (i < k) {
+                list.add(score[i]);
+                list.sort(Comparator.reverseOrder());
+                answer[i] = list.get(i);
+            } else {
+                list.add(score[i]);
+                list.sort(Comparator.reverseOrder());
+                answer[i] = list.get(k - 1);
             }
         }
 
