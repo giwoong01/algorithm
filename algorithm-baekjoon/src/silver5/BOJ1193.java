@@ -12,18 +12,17 @@ public class BOJ1193 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int x = Integer.parseInt(br.readLine());
-        int crossCount = 1; // 대각선
-        int sumCrossCount = 0; // 누적 대각선 개수
+        int crossCount = 1;
+        int sumCrossCount = 0;
 
         while (true) {
             if (x <= crossCount + sumCrossCount) {
                 if (crossCount % 2 == 1) {
                     System.out.println((crossCount - (x - sumCrossCount - 1)) + "/" + (x - sumCrossCount));
-                    break;
                 } else {
                     System.out.println((x - sumCrossCount) + "/" + (crossCount - (x - sumCrossCount - 1)));
-                    break;
                 }
+                break;
             } else {
                 sumCrossCount += crossCount;
                 crossCount++;
