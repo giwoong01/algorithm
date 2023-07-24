@@ -10,30 +10,34 @@ package silver5;
 
 
 import java.util.Arrays;
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 public class BOJ10815 {
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int n = sc.nextInt();
+        int n = Integer.parseInt(br.readLine());
         int[] card = new int[n];
+        StringTokenizer st = new StringTokenizer(br.readLine());
         for (int i = 0; i < n; i++) {
-            card[i] = sc.nextInt();
+            card[i] = Integer.parseInt(st.nextToken());
         }
         Arrays.sort(card);
 
-        int m = sc.nextInt();
+        int m = Integer.parseInt(br.readLine());
+        st = new StringTokenizer(br.readLine());
         for (int i = 0; i < m; i++) {
-            int num = sc.nextInt();
+            int num = Integer.parseInt(st.nextToken());
             if (binarySearch(card, num)) {
                 System.out.print("1 ");
             } else {
                 System.out.print("0 ");
             }
         }
-        sc.close();
     }
 
     private static boolean binarySearch(int[] arr, int num) {
