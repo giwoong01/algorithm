@@ -9,6 +9,33 @@ package src.level1;
 // [[14, 4], [19, 6], [6, 16], [18, 7], [7, 11]]	133
 
 public class P86491 {
+    public static void main(String[] args) {
+        int[][] sizes = {{60, 50}, {30, 70}, {60, 30}, {80, 40}};
+
+        System.out.println(solution2(sizes));
+    }
+
+    public static int solution2(int[][] sizes) {
+        int max1 = 0;
+        int max2 = 0;
+
+        for (int i = 0; i < sizes.length; i++) {
+            for (int j = 0; j < sizes[i].length; j++) {
+                if (sizes[i][0] < sizes[i][1]) {
+                    int tmp = sizes[i][0];
+                    sizes[i][0] = sizes[i][1];
+                    sizes[i][1] = tmp;
+                }
+
+                max1 = Math.max(max1, sizes[i][0]);
+                max2 = Math.max(max2, sizes[i][1]);
+            }
+
+        }
+        return max1 * max2;
+    }
+
+
     public int solution(int[][] sizes) {
         int maxRow = 0; // 최대 가로
         int maxCol = 0; // 최대 세로
