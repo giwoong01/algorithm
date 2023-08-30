@@ -95,6 +95,12 @@
 * [19532 - 수학은 비대면강의입니다.](https://www.acmicpc.net/problem/19532)
 * [2941 - 크로아디아 알파벳](https://www.acmicpc.net/problem/2941)
 * [1543 - 문서 검색](https://www.acmicpc.net/problem/1543)
+* [18870 - 좌표 압축](https://www.acmicpc.net/problem/18870)
+* [7785 - 회사에 있는 사람](https://www.acmicpc.net/problem/7785)
+* [28278 - 스택 2](https://www.acmicpc.net/problem/28278)
+* [16212 - 정열적인 정렬](https://www.acmicpc.net/problem/16212)
+* [4949 - 균형잡힌 세상](https://www.acmicpc.net/problem/4949)
+* [2164 - 카드2](https://www.acmicpc.net/problem/2164)
 
 * [9020 - 골드바흐 추측]
 * [17103 - 골드바흐 파티션]
