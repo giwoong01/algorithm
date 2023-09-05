@@ -101,6 +101,7 @@
 * [16212 - 정열적인 정렬](https://www.acmicpc.net/problem/16212)
 * [4949 - 균형잡힌 세상](https://www.acmicpc.net/problem/4949)
 * [2164 - 카드2](https://www.acmicpc.net/problem/2164)
+* [1449 - 수리공 항승](https://www.acmicpc.net/problem/1449)
 
 * [9020 - 골드바흐 추측]
 * [17103 - 골드바흐 파티션]
