@@ -1,4 +1,4 @@
-package silver1;
+package gold5;
 
 /*
 하노이 탑 이동 순서
