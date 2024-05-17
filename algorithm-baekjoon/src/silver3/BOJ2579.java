@@ -13,8 +13,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class BOJ2579 {
-    static Integer dp[];
-    static int arr[];
+    static Integer[] dp;
+    static int[] arr;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
