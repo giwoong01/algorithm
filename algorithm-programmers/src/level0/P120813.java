@@ -20,16 +20,13 @@ public class P120813 {
     }
 
     public static int[] solution(int n) {
-        int[] answer;
+        int[] answer = n % 2 == 0 ? new int[n / 2] : new int[(n / 2) + 1];
+        int index = 0;
 
-        if (n % 2 == 0) {
-            answer = new int[n / 2];
-        } else {
-            answer = new int[(n + 1) / 2];
-        }
-
-        for (int i = 0; i < answer.length; i++) {
-            answer[i] = (i * 2) + 1;
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 != 0) {
+                answer[index++] = i;
+            }
         }
 
         return answer;
