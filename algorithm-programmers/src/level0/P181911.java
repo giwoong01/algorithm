@@ -9,8 +9,6 @@ my_strings	                                            parts	                   
 ["progressive", "hamburger", "hammer", "ahocorasick"]	[[0, 4], [1, 2], [3, 5], [7, 7]]	"programmers"
  */
 
-import java.util.Arrays;
-
 public class P181911 {
     public static void main(String[] args) {
         String[] my_strings = {"progressive", "hamburger", "hammer", "ahocorasick"};
