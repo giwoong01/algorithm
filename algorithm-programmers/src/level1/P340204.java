@@ -1,7 +1,7 @@
 package src.level1;
 
 /*
-level-0
+level-1
 [PCCE 기출문제] 4번 / 변과분류
 
 빈칸 채우기 문제
