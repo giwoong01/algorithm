@@ -1,6 +1,9 @@
 # 푼 문제
+
 ***
+
 ### 2022
+
 * [2562 - 최댓값](https://www.acmicpc.net/problem/2562)
 * [15596 - 정수 N개의 합](https://www.acmicpc.net/problem/15596)
 * [4673 - 셀프넘버](https://www.acmicpc.net/problem/4673)
@@ -28,6 +31,7 @@
 * [1929 - 소수 구하기](https://www.acmicpc.net/problem/1929)
 
 ### 2023
+
 * [2579 - 계단 오르기](https://www.acmicpc.net/problem/2579)
 * [2563 - 색종이](https://www.acmicpc.net/problem/2563)
 * [2751 - 수 정렬하기 2](https://www.acmicpc.net/problem/2751)
@@ -106,6 +110,7 @@
 * [5597 - 과제 안 내신 분...?](https://www.acmicpc.net/problem/5597)
 * [1764 - 듣보잡](https://www.acmicpc.net/problem/1764)
 * [13909 - 창문 닫기](https://www.acmicpc.net/problem/13909)
+* [17298 - 오큰수](https://www.acmicpc.net/problem/17298)
 
 * [9020 - 골드바흐 추측]
 * [17103 - 골드바흐 파티션]
@@ -113,3 +118,7 @@
 * [2839 - 설탕배달]
 * [1181 - 단어정렬]
 * [2231 - 분해합]
+
+### 2025
+
+* [9935 - 문자열 폭발](https://www.acmicpc.net/problem/9935)
