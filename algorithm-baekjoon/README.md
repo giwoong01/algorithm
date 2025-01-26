@@ -122,3 +122,5 @@
 ### 2025
 
 * [9935 - 문자열 폭발](https://www.acmicpc.net/problem/9935)
+* [10952 - A + B - 5](https://www.acmicpc.net/problem/10952)
+* [10951 - A + B - 4](https://www.acmicpc.net/problem/10951)
