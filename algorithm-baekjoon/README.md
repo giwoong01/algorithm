@@ -128,3 +128,6 @@
 * [2136 - 개미](https://www.acmicpc.net/problem/2136)
 * [2504 - 괄호의 값](https://www.acmicpc.net/problem/2504)
 * [2493 - 탑](https://www.acmicpc.net/problem/2493)
+* [1927 - 최소 힙](https://www.acmicpc.net/problem/1927)
+* [1744 - 수 묶기](https://www.acmicpc.net/problem/1744)
+* [1715 - 카드 정렬하기](https://www.acmicpc.net/problem/1715)
