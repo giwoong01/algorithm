@@ -131,3 +131,6 @@
 * [1927 - 최소 힙](https://www.acmicpc.net/problem/1927)
 * [1744 - 수 묶기](https://www.acmicpc.net/problem/1744)
 * [1715 - 카드 정렬하기](https://www.acmicpc.net/problem/1715)
+* [6603 - 로또](https://www.acmicpc.net/problem/6603)
+* [2343 - 기타 레슨](https://www.acmicpc.net/problem/2343)
+* [2981 - 검문](https://www.acmicpc.net/problem/2981)
