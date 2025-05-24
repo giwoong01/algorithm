@@ -111,8 +111,7 @@
 * [1764 - 듣보잡](https://www.acmicpc.net/problem/1764)
 * [13909 - 창문 닫기](https://www.acmicpc.net/problem/13909)
 * [17298 - 오큰수](https://www.acmicpc.net/problem/17298)
-
-* [9020 - 골드바흐 추측]
+* [9020 - 골드바흐 추측](https://www.acmicpc.net/problem/9020)
 * [17103 - 골드바흐 파티션]
 * [1018 - 체스판 다시칠하기]
 * [2839 - 설탕배달]
