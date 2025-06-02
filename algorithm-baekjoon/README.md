@@ -114,7 +114,7 @@
 * [9020 - 골드바흐 추측](https://www.acmicpc.net/problem/9020)
 * [17103 - 골드바흐 파티션](https://www.acmicpc.net/problem/17103)
 * [1018 - 체스판 다시칠하기](https://www.acmicpc.net/problem/1018)
-* [2839 - 설탕배달]
+* [2839 - 설탕배달](https://www.acmicpc.net/problem/2839)
 * [1181 - 단어정렬]
 * [2231 - 분해합]
 
