@@ -133,3 +133,5 @@
 * [6603 - 로또](https://www.acmicpc.net/problem/6603)
 * [2343 - 기타 레슨](https://www.acmicpc.net/problem/2343)
 * [2981 - 검문](https://www.acmicpc.net/problem/2981)
+* [1916 - 최소비용 구하기](https://www.acmicpc.net/problem/1916)
+* [5972 - 택배 배송](https://www.acmicpc.net/problem/5972)
