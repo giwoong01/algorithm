@@ -116,7 +116,7 @@
 * [1018 - 체스판 다시칠하기](https://www.acmicpc.net/problem/1018)
 * [2839 - 설탕배달](https://www.acmicpc.net/problem/2839)
 * [1181 - 단어정렬](https://www.acmicpc.net/problem/1181)
-* [2231 - 분해합]
+* [2231 - 분해합](https://www.acmicpc.net/problem/2231)
 
 ### 2025
 
