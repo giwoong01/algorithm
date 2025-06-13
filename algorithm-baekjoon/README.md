@@ -135,3 +135,4 @@
 * [2981 - 검문](https://www.acmicpc.net/problem/2981)
 * [1916 - 최소비용 구하기](https://www.acmicpc.net/problem/1916)
 * [5972 - 택배 배송](https://www.acmicpc.net/problem/5972)
+* [11004 - K번째 수](https://www.acmicpc.net/problem/11004)
