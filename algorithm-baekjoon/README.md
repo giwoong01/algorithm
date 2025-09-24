@@ -136,3 +136,6 @@
 * [1916 - 최소비용 구하기](https://www.acmicpc.net/problem/1916)
 * [5972 - 택배 배송](https://www.acmicpc.net/problem/5972)
 * [11004 - K번째 수](https://www.acmicpc.net/problem/11004)
+* [5622 - 다이얼](https://www.acmicpc.net/problem/5622)
+* [25206 - 너의 평점은](https://www.acmicpc.net/problem/25206)
+* [1269 - 대칭 차집합](https://www.acmicpc.net/problem/1269)
