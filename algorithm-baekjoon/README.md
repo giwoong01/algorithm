@@ -140,3 +140,4 @@
 * [25206 - 너의 평점은](https://www.acmicpc.net/problem/25206)
 * [1269 - 대칭 차집합](https://www.acmicpc.net/problem/1269)
 * [12789 - 도키도키 간식드리미](https://www.acmicpc.net/problem/12789)
+* [27866 - 문자와 문자열](https://www.acmicpc.net/problem/27866)
