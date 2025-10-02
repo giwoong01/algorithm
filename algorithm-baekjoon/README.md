@@ -141,3 +141,5 @@
 * [1269 - 대칭 차집합](https://www.acmicpc.net/problem/1269)
 * [12789 - 도키도키 간식드리미](https://www.acmicpc.net/problem/12789)
 * [27866 - 문자와 문자열](https://www.acmicpc.net/problem/27866)
+* [11279 - 최대힙](https://www.acmicpc.net/problem/11279)
+* [11286 - 절댓값 힙](https://www.acmicpc.net/problem/11286)
