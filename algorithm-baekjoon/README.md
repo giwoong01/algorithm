@@ -143,3 +143,4 @@
 * [27866 - 문자와 문자열](https://www.acmicpc.net/problem/27866)
 * [11279 - 최대힙](https://www.acmicpc.net/problem/11279)
 * [11286 - 절댓값 힙](https://www.acmicpc.net/problem/11286)
+* [11718 - 그대로 출력하기](https://www.acmicpc.net/problem/11718)
