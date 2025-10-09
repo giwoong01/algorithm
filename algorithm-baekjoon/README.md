@@ -145,3 +145,4 @@
 * [11286 - 절댓값 힙](https://www.acmicpc.net/problem/11286)
 * [11718 - 그대로 출력하기](https://www.acmicpc.net/problem/11718)
 * [2675 - 문자열 반복](https://www.acmicpc.net/problem/2675)
+* [10798 - 세로읽기](https://www.acmicpc.net/problem/10798)
