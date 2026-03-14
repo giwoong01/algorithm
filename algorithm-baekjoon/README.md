@@ -161,3 +161,4 @@
 * [11720 - 숫자의 합](https://www.acmicpc.net/problem/11720)
 * [11053 - 가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
 * [11722 - 가장 긴 감소하는 부분 수열](https://www.acmicpc.net/problem/11722)
+* [9146 - 파도반 수열](https://www.acmicpc.net/problem/9416)
